@@ -1,0 +1,22 @@
+{
+  "projectKey" : {
+    "project" : "CSI"
+  },
+  "field" : {
+    "Steps" : "Action",
+    "Test Set" : "customfield_12407",
+    "Description" : "description",
+    "Priority" : "priority",
+    "Label" : "labels",
+    "Summary" : "summary",
+    "Pre-Requisites" : "customfield_13147",
+    "Expected Result" : "Expected Result",
+    "﻿Test case_ID" : "Test Case Identifier"
+  },
+  "link" : { },
+  "projectSelection" : {
+    "project" : "true"
+  },
+  "projectName" : { },
+  "value" : { }
+}

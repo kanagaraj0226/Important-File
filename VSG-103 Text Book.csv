@@ -1,0 +1,683 @@
+Test case_ID,Summary,Description,Pre-Requisites,Steps,Expected Result,Label,Priority,Test Set,
+TC_01,Verify that the Tower Asset templates is visible under Inventory Migration ? Sample Templates section,Verify that the Tower Asset templates is visible under Inventory Migration ? Sample Templates section,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Check that the Tower Asset template is visible in the sample template section",The Tower Asset template should be visible under Inventory Migration ? Sample Templates Section,CSI-84705,Low,CSI-85826,
+TC_02,Verify Tower Asset Template Displays Required Sheets After Download,Verify that the  Tower Asset template is following the existing template logic,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Check that the Tower Asset template is shown in the following logic sequence:
+Tower Asset Site, Tower Asset Contract and Tower Asset Cost.",The Tower Asset template Displays the Required Sheets After Download,CSI-84705,Low,CSI-85826,
+TC_03,Verify that the user can able to select and download the each Tower Asset template,Verify that the user can able to select and download the each Tower Asset template,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Click and download any of the template ",User should able to select and download the each Tower Asset template,CSI-84705,Low,CSI-85826,
+TC_04,Verify that the the downloaded file should match with the stored template without corruption,Verify that the the downloaded file should match with the stored template without corruption,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Click and download any of the sample template 
+4. Check the downloaded file is matching with the already store template format",The download file should match with the stored template without corruption,CSI-84705,Low,CSI-85826,
+TC_05,Verify that the file download behave consistently with other inventory templates,Verify that the file download behave consistently with other inventory templates,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Click and download any of the sample template 
+4. Check the downloaded file template is matching with the other inventory template format",The file download should behave consistenly with other inventory templates,CSI-84705,Low,CSI-85826,
+TC_06,Verify UI placement is algined with the existing template order and style,Verify UI placement is algined with the existing template order and style,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Click and download any of the sample template 
+4. Check the downloaded file template is matching with the other inventory template format",The UI placement should aligned with the existing template order and style,CSI-84705,Low,CSI-85826,
+TC_07,Verify that there should be no UI distortion or misalignment after adding templates,Verify that there should be no UI distortion or misalignment after adding templates,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Click and download any of the sample template 
+4. Downloaded any sample file template and check the UI should not be misaligned.",No UI distortion or misaligment should not be there after adding templates,CSI-84705,Low,CSI-85826,
+TC_08,Verify Tower Asset is appears under the Inventory type drop down in the Upload data page,Verify Tower Asset is appears under the Inventory drop down in the Upload data page,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Scroll down in the Upload Data section & Check Tower Asset dropdown is shown in the Inventory type drop down.",Tower Asset should appears under the Inventory drop donw in the Upload data page,CSI-84705,Low,CSI-85826,
+TC_09,Verify that the Tower Asset can be enabled and selectable,Verify that the Tower Asset can be enabled and selectable,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration 
+3. Scroll down in the Upload Data section
+4. Check wheather Tower Asset dropdown is enable and can select in the Inventory type drop down.",The Tower Asset should be enabled and selectable,CSI-84705,Low,CSI-85826,
+TC_10,Verify that the system stores the selected value in the relevant fields when user select the Tower site,Verify that the system stores the selected value in the relevant fields when user select the Tower site,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration--> Upload data 3. Provide fields and upload any sample template 
+4. Check wheather the template shows the relavent fields in the Track process",The system should store the selected value in the relevant fields when user select the tower site,CSI-84705,Low,CSI-85826,
+TC_11,Verify there is no data loss or mismatch in the stored choice value,Verify there is no data loss or mismatch in the stored choice value,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Upload data
+3. Select the Tower Asset dropdown in the Inventory type drop down.
+4. Provide the attachment with provided data and check there is no data loss or mismatch value.",No data loss or mismatch should not be there in the stored choice value,CSI-84705,Low,CSI-85826,
+TC_12,Verify that the UI dropdown behaves consistenly and remains responsive while selecting the tower site,Verify that the UI dropdown behaves consistenly and remains responsive while selecting the tower site,The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Upload data
+3. Check the Tower Asset dropdown in the Inventory type drop down.",The UI dropdown should behaves consistently and remains responsive while selecting the tower site,CSI-84705,Low,CSI-85826,
+TC_13,"Verify there is a proper spacing, alignment and stylinig is retained","Verify there is a proper spacing, alignment and styling is retained",The SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Upload data
+3. Check the proper spacing and allignment style in the Tower Asset dropdown in the Inventory type drop down.","Proper spacing, alignment and styling must be retained",CSI-84705,Low,CSI-85826,
+TC_14,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Site.,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Site.,The Servicenow and SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Manage Data
+3. Click on Tower Asset Load and select the Tower asset site.
+4. Check the Source Sheet Name is enabled by default",Source Sheet Name filter option is enabled by default in the Tower Asset Load for the Tower Asset Site.,CSI-84705,Low,CSI-85826,
+TC_15,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Cost.,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Cost.,The Servicenow and SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Manage Data
+3. Click on Tower Asset Load and select the Tower asset Cost.
+4. Check the Source Sheet Name is enabled by default",Source Sheet Name filter option is enabled by default in the Tower Asset Load for the Tower Asset Cost.,CSI-84705,Low,CSI-85826,
+TC_16,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Contract.,Verify that the filter for Source Sheet Name is enabled by default in the Tower Asset Load for the Tower Asset Contract.,The Servicenow and SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Manage Data
+3. Click on Tower Asset Load and select the Tower asset contract.
+4. Check the Source Sheet Name is enabled by default",Source Sheet Name filter option is enabled by default in the Tower Asset Load for the Tower Asset Contract.,CSI-84705,Low,CSI-85826,
+TC_17,Verify “Source Sheet Name” is hidden/not seen in any of the Inventory Migration sections.,Verify “Source Sheet Name” is hidden/not seen in any of the Inventory Migration sections.,The Servicenow and SIP Portal should be accessible to the admin user,"1. Login into VSIP portal with valid credential
+2. Click on Data Steward--> Inventory Migration --> Manage Data
+3. Click on Tower Asset Load and select the Tower asset contract.
+4. Check the Source Sheet Name is enabled by default",“Source Sheet Name” is not viewed in any of the Inventory Migration sections.,CSI-84705,Low,CSI-85826,
+TC_18,Verify Tower Asset module is added in the Inventory Type choice on the Create Inventory record page,Verify Tower Asset module is added in the Inventory Type choice on the Create Inventory record page,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward 
+3.Click on Inventory Migration
+4.Navigate to Create Inventory Record page.
+5.Check Tower Asset choice is shown in the dropdown",The Tower Asset module should be shown in the Inventory Type choice,CSI-84705,Low,CSI-85826,
+TC_19,Verify that the Tower Asset option follows the existing choice list configuration and naming standards,Verify that the Tower Asset option follows the existing choice list configuration and naming standards,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward 
+3.Click on Inventory Migration
+4.Navigate to Create Inventory Record page.
+5.Check Tower Asset option follows the existing choice lise configuration",Tower Asset option is shown as the existing choice list configuration and naming standards,CSI-84705,Low,CSI-85826,
+TC_20,Verify that when the Tower Asset is selected and clicks on the Create button the record is creating with the Inventory Type = Tower Asset,Verify that when the Tower Asset is selected and clicks on the Create button the record is creating with the Inventory Type = Tower Asset,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward 
+3.Click on Inventory Migration
+4.Navigate to Create Inventory Record page.
+5.Click on Tower Asset choice is shown in the dropdown
+6. Click on Create button",The record should be created successfully once create a new Tower Asset record,CSI-84705,Low,CSI-85826,
+TC_21,Verify that the User is redirected to the Add Record Details form,Verify that the User is redirected to the Add Record Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward 
+3.Click on Inventory Migration
+4.Navigate to Create Inventory Record page.
+5.Click on Tower Asset choice is shown in the dropdown
+6. Click on Create button",User shoud be redirected to the Add Record Details form,CSI-84705,Low,CSI-85826,
+TC_22,Verify that the user can create a record in the u_sip_execution_details table,Verify that the user can create a record in the u_sip_execution_details table,The Servicenow and SIP Portal should be accessible to the admin user,"1. Log in SNOW with valid credential
+2. Click on All navigation ""u_sip_execution_details.LIST""
+3. Check user can create new record in the table.",User should be able to create a record in the u_sip_execution_details table,CSI-84705,Low,CSI-85826,
+TC_23,Verify the creation of record align with existing inventory creation flows,Verify the creation of record align with existing inventory creation flows,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Click on Create button and provide the details and click on submit button
+6.Click on Manage Data and check the records are shown with the existing details.",The creation of record should be align with existing inventory creation flows,CSI-84705,Low,CSI-85826,
+TC_24,Verify there is no changes to the other inventory options,Verify there is no changes to the other inventory options,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check ther should not be any changes  in the inventory options.",No changes is observed to the other inventory options,CSI-84705,Low,CSI-85826,
+TC_25,"Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as expected.","Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as expected.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check the existing inventory type creation works as expected.","The existing Inventory Type creation (CPE, Access, Cross Connect) works as expected.",CSI-84705,Low,CSI-85826,
+TC_26,Verify Add Record Page Displays Upon Clicking Tower Asset and Create Button,Verify Add Record Page Displays Upon Clicking Tower Asset and Create Button,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Click on Create button and Check the Add Record page is shown",Add Record Page is displayed when Clicking Tower Asset and Create Button,CSI-84705,Low,CSI-85826,
+TC_27,Verify user is redirected to Add Record Details page without errors.,Verify user is redirected to Add Record Details page without errors.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Click on Create button and Check the Add Record page is shown",User is redirected to Add Record Details page without errors.,CSI-84705,Low,CSI-85826,
+TC_28,Verify the Site details section should provide the following attributes,Verify the Site details section should provide the following attributes,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Click on Create button and Check the Site details attributes ",Site details section should provide the following attributes,CSI-84705,Low,CSI-85826,
+TC_29,Verify the mandatory details are shown in the Site details section,Verify the mandatory details are shown in the Site details section,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Click on Create button and Check the Site details",The mandatory details are shown in the Site details section,CSI-84705,Low,CSI-85826,
+TC_30,Verify that only Tower Asset attributes appear and follow the defined UI order.,Verify that only Tower Asset attributes appear and follow the defined UI order.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page.
+4.Select Tower Asset dropdown in Inventory Type.
+5. Click on Create button and Open Add Record Details for Tower Asset
+6. Observe the field list and sequence.",User should be able to create a record in the u_sip_execution_details table,CSI-84705,Low,CSI-85826,
+TC_31,Verify there is no changes to the other inventory options,Verify there is no changes to the other inventory options,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check ther should not be any changes  in the inventory options.",No changes is observed to the other inventory options,CSI-84705,Low,CSI-85826,
+TC_32,"Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.","Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check the existing inventory type creation works as expected.","The existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",CSI-84705,Low,CSI-85826,
+TC_33,Verify the "Contract Details" Displays Upon Clicking Tower Asset and Create Button,Verify Add Record Page Displays Upon Clicking Tower Asset and Create Button,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Contract Details section is shown","""Contract Details""  is displayed when Clicking Tower Asset and Create Button",CSI-84705,Low,CSI-85826,
+TC_34,Verify user is redirected to Contract Details page without errors.,Verify user is redirected to Add Record Details page without errors.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Contract Details section is shown without page error",User is redirected to  Contract Details page without errors.,CSI-84705,Low,CSI-85826,
+TC_35,Verify the Contract details section should provide the following attributes,Verify the Contract details section should provide the following attributes,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Contract details attributes ",Contract details section should provide the following attributes,CSI-84705,Low,CSI-85826,
+TC_36,Verify the mandatory details are shown in the Contract details section,Verify the mandatory details are shown in the Contract details section,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the mandatory fields in Contract details ",The mandatory details are shown in the Contract details section,CSI-84705,Low,CSI-85826,
+TC_37,Verify there is no changes to the other inventory options,Verify there is no changes to the other inventory options,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check ther should not be any changes  in the inventory options.",No changes is observed to the other inventory options,CSI-84705,Low,CSI-85826,
+TC_38,"Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.","Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check the existing inventory type creation works as expected.","The existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",CSI-84705,Low,CSI-85826,
+TC_39,Verify the "Cost details" Displays Upon Clicking Tower Asset and Create Button,Verify Add Record Page Displays Upon Clicking Tower Asset and Create Button,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Cost details section is shown","""Cost details""  is displayed when Clicking Tower Asset and Create Button",CSI-84705,Low,CSI-85826,
+TC_40,Verify user is redirected to Cost details page without errors.,Verify user is redirected to Add Record Details page without errors.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Cost details section is shown without page error",User is redirected to  Cost details page without errors.,CSI-84705,Low,CSI-85826,
+TC_41,Verify the Cost details section should provide the following attributes,Verify the Cost details section should provide the following attributes,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Cost details attributes ",Cost details section should provide the following attributes,CSI-84705,Low,CSI-85826,
+TC_42,Verify the mandatory details are shown in the Cost details section,Verify the mandatory details are shown in the Cost details section,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the mandatory fields in Cost details ",The mandatory details are shown in the Cost details section,CSI-84705,Low,CSI-85826,
+TC_43,Verify there is no changes to the other inventory options,Verify there is no changes to the other inventory options,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check there should not be any changes  in the inventory options.",No changes is observed to the other inventory options,CSI-84705,Low,CSI-85826,
+TC_44,"Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.","Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check the existing inventory type creation works as expected.","The existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",CSI-84705,Low,CSI-85826,
+TC_45,Verify the "Load details" Displays Upon Clicking Tower Asset and Create Button,Verify Add Record Page Displays Upon Clicking Tower Asset and Create Button,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Load details section is shown","""Load details""  is displayed when Clicking Tower Asset and Create Button",CSI-84705,Low,CSI-85826,
+TC_46,Verify user is redirected to Load details page without errors.,Verify user is redirected to Add Record Details page without errors.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Load details section is shown without page error",User is redirected to  Load details page without errors.,CSI-84705,Low,CSI-85826,
+TC_47,Verify the Load details section should provide the following attributes,Verify the Load details section should provide the following attributes,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the Load details attributes ","Load details section should provide the following attributes: Record Status
+Inventory Reference
+Exception
+Information
+Upload Reference",CSI-84705,Low,CSI-85826,
+TC_48,Verify the mandatory details are shown in the Load details section,Verify the mandatory details are shown in the Load details section,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record page --> ""Tower Site"" dropdown in Inventory type
+4.Check the mandatory fields in Load details ",The mandatory details are shown in the Load details section,CSI-84705,Low,CSI-85826,
+TC_49,Verify there is no changes to the other inventory options,Verify there is no changes to the other inventory options,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check there should not be any changes  in the inventory options.",No changes is observed to the other inventory options,CSI-84705,Low,CSI-85826,
+TC_50,"Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.","Verify that the existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration
+3.Click on Create Inventory Record page.
+4.Click on Tower Asset choice is shown in the dropdown
+5. Create new record and check other inventory options
+6.Check the existing inventory type creation works as expected.","The existing Inventory Type creation (CPE, Access, Cross Connect) works as before.",CSI-84705,Low,CSI-85826,
+TC_51,Verify “Tower Asset Load” Menu Placement Under Manage Data Tab within the Inventory Migration module,Verify “Tower Asset Load” Menu Placement Under Manage Data Tab within the Inventory Migration module,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data
+4.Check the ""Tower Asset Load"" is shown  ",“Tower Asset Load” Menu is shown Under Manage Data Tab within the Inventory Migration module,CSI-84705,Low,CSI-85826,
+TC_52,Verify the existing “Inventory Load” and “No PO Cost Load” menus are not highlighted under the Manage Data tab,Verify the existing “Inventory Load” and “No PO Cost Load” menus are not highlighted under the Manage Data tab,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data
+4.Click onthe ""Tower Asset Load""
+5. Check the existing “Inventory Load” and “No PO Cost Load” menus are not highlighted under the Manage Data tab",“Inventory Load” and “No PO Cost Load” menus are not highlighted under the Manage Data tab,CSI-84705,Low,CSI-85826,
+TC_53,"Verify the Submenu Options Display under “Tower Asset Load” --“Tower Asset Site,” “Tower Asset Cost,” and “Tower Asset Contract,""","Verify the Submenu Options Display under “Tower Asset Load” --“Tower Asset Site,” “Tower Asset Cost,” and “Tower Asset Contract,""",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Check the following submenu are shown: “Tower Asset Site ,” “Tower Asset Cost,” and “Tower Asset Contract,""","the following submenu are shown: “Tower Asset Site,” “Tower Asset Cost,” and “Tower Asset Contract,""",CSI-84705,Low,CSI-85826,
+TC_54,"Validate that submenu items under “Tower Asset Load” match the font, spacing, hover effects, and alignment of existing Manage Data submenus.","Validate that submenu items under “Tower Asset Load” match the font, spacing, hover effects, and alignment of existing Manage Data submenus.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Check the following submenu are arranged in the order: “Tower Asset Site,” “Tower Asset Cost,” and “Tower Asset Contract,""","Submenu items under “Tower Asset Load” match the font, spacing, hover effects, and alignment of existing Manage Data submenus.",CSI-84705,Low,CSI-85826,
+TC_55,Verify clicking on the “Tower Asset Site” submenu navigates to the Tower Asset Site list view page without load delay or UI errors,Verify clicking on the “Tower Asset Site” submenu navigates to the Tower Asset Site list view page without load delay or UI errors,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Click on the “Tower Asset Site,” should navigates the list view without any UI delays/error.",Clicking on the “Tower Asset Site” submenu navigates to the Tower Asset Site list view page without load delay or UI errors,CSI-84705,Low,CSI-85826,
+TC_56,Verify clicking on the “Tower Asset Cost” submenu navigates to the Tower Asset Cost list view page without load delay or UI errors,Verify clicking on the “Tower Asset Cost” submenu navigates to the Tower Asset Cost list view page without load delay or UI errors,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Click on the “Tower Asset Cost,” should navigates the list view without any UI delays/error.",Clicking on the “Tower Asset Cost” submenu navigates to the Tower Asset Cost list view page without load delay or UI errors,CSI-84705,Low,CSI-85826,
+TC_57,Verify clicking on the “Tower Asset Contract” submenu navigates to the Tower Asset Contract list view page without load delay or UI errors,Verify clicking on the “Tower Asset Contract” submenu navigates to the Tower Asset Contract list view page without load delay or UI errors,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Click on the “Tower Asset Contract,” should navigates the list view without any UI delays/error.",Clicking on the “Tower Asset Contract” submenu navigates to the Tower Asset Contract list view page without load delay or UI errors,CSI-84705,Low,CSI-85826,
+TC_58,"Verify that the “Tower Asset Load” menu and submenus visually align with existing Manage Data menus in terms of color scheme, font, hover behavior, and positioning.","Verify that the “Tower Asset Load” menu and submenus visually align with existing Manage Data menus in terms of color scheme, font, hover behavior, and positioning.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Check the following Tower Asset Load menus and submenus are align in terms of color scheme, font, hover behavior, and positioning. ","The following Tower Asset Load menus and submenus are align in terms of color scheme, font, hover behavior, and positioning.",CSI-84705,Low,CSI-85826,
+TC_59,"Check there is no lag, duplication, or drop in performance when loading the Manage Data tab or interacting with the “Tower Asset Load” menu and submenus.","Check there is no lag, duplication, or drop in performance when loading the Manage Data tab or interacting with the “Tower Asset Load” menu and submenus.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Check there is no lag, duplication, or drop while clicking on the Tower Asset Load menus and submenus.","There should not be any lag, duplication, or drop while clicking on the Tower Asset Load menus and submenus.",CSI-84705,Low,CSI-85826,
+TC_60,Verify Existing Menus Remain Unaffected After Adding “Tower Asset Load” Menu in the Inventory Migration module.,Verify Existing Menus Remain Unaffected After Adding “Tower Asset Load” Menu in the Inventory Migration module.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+4.Check Existing Menus Remain Unaffected After Adding “Tower Asset Load” Menu in the Inventory Migration module.",Existing Menus Remain Unaffected After Adding “Tower Asset Load” Menu in the Inventory Migration module.,CSI-84705,Low,CSI-85826,
+TC_61,Verify Tower Asset Load List View Displays Data from u_sip_execution_details Table,Verify Tower Asset Load List View Displays Data from u_sip_execution_details Table,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SNOW with valid credentials        
+2.Click on All navigation - Search ""u_sip_execution_details Table""
+3.Check the Tower Asset Load list view is shown.",Tower Asset Load List View displays all relevant data from the u_sip_execution_details table.,CSI-84705,Low,CSI-85826,
+TC_62,Verify List View Displays Only Tower Asset Inventory Records,Verify List View Displays Only Tower Asset Inventory Records,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the list view displays on the Tower asset inventory records ",the list view shows only Tower Asset Inventory records.,CSI-84705,Low,CSI-85826,
+TC_63,Verify Display of Approved Columns for Tower Asset Load List View,Verify Display of Approved Columns for Tower Asset Load List View,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the list view displays on the Tower asset inventory records should be business approved column set",All approved columns for Tower Asset Load list view are correctly displayed.,CSI-84705,Low,CSI-85826,
+TC_64,Verify that all column names and labels on the Tower Asset Load list view match the agreed business terminology and naming standards.,Verify that all column names and labels on the Tower Asset Load list view match the agreed business terminology and naming standards.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the list view displays  all column names and labels on the Tower Asset Load list view ",The column names and labels match the agreed business terminology and standards.,CSI-84705,Low,CSI-85826,
+TC_65,Validate that the columns appear in the approved sequence and maintain alignment and spacing consistent with platform standards.,Validate that the columns appear in the approved sequence and maintain alignment and spacing consistent with platform standards.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the list view displays all column names in the approved sequence.",The columns appear in the approved order with consistent alignment and spacing.,CSI-84705,Low,CSI-85826,
+TC_66,Verify that clicking the “Tower Asset Load” menu successfully navigates to the list view page without any UI or loading errors.,Verify that clicking the “Tower Asset Load” menu successfully navigates to the list view page without any UI or loading errors.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Click on the Tower Asset Load should navigate to the list view page without any UI or loading errors.",“Tower Asset Load” menu navigates to the list view page without errors.,CSI-84705,Low,CSI-85826,
+TC_67,"Verify Sorting, Filtering, and Search Functionality in Tower Asset Load List View","Verify Sorting, Filtering, and Search Functionality in Tower Asset Load List View",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Sorting, Filtering, and Search Functionality in Tower Asset Load List View","sorting, filtering, and search functions work correctly in the Tower Asset Load list view.",CSI-84705,Low,CSI-85826,
+TC_68,"Verify that pagination, count indicators, and list view controls (such as next/previous) work correctly","Verify that pagination, count indicators, and list view controls (such as next/previous) work correctly",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the pagination, count indicators, and list view controls (such as next/previous) work correctly in Tower Asset Load List View","pagination, count indicators, and list view navigation controls function properly.",CSI-84705,Low,CSI-85826,
+TC_69,Verify that the introduction of the Tower Asset Load list view does not impact the functionality,Verify that the introduction of the Tower Asset Load list view does not impact the functionality,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the introduction of the Tower Asset Load list view does not impact the functionality",Tower Asset Load list view does not negatively impact existing functionality.,CSI-84705,Low,CSI-85826,
+TC_70,"Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Asset Details section is visible","Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Asset Details section is visible",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower asset site is displays in the respective page",Tower Asset record’s Asset Details section is visible on the form view.,CSI-84705,Low,CSI-85826,
+TC_71,Verify that the Asset Details section is loading without UI issues or missing fields,Verify that the Asset Details section is loading without UI issues or missing fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower asset site is displays in the Tower Asset Load section without any UI issues",Asset Details section loads without UI issues or missing fields.,CSI-84705,Low,CSI-85826,
+TC_72,Verify that the Asset Details section displays the specific Tower Asset asset fiedls for the particular selected record,Verify that the Asset Details section displays the specific Tower Asset asset fiedls for the particular selected record,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower asset site records are shown in the Tower Asset Load section  ",Asset Details section shows Tower Asset asset fields for the selected record.,CSI-84705,Low,CSI-85826,
+TC_73,"Verify that field labels, data types, and mandatory indicators in the Asset Details form match the Tower Asset data model and the agreed template attributes.","Verify that field labels, data types, and mandatory indicators in the TAsset Details form match the Tower Asset data model and the agreed template attributes.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the field label, data type, mandatory details are shown in the Tower asset site.","The field labels, data types, and mandatory markers match the Tower Asset data model and template.",CSI-84705,Low,CSI-85826,
+TC_74,Verify that an error is thrown when invalid data types are entered in the Asset details form,Verify that an error is thrown when invalid data types are entered in the Asset details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Click on Tower Asset site filter option and provide any invalid data to check any error is shown.",Error is shown for invalid data entered in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_75,Verify that an error is thrown when attempting to update the Asset details form without filling in the mandatory fields,Verify that an error is thrown when attempting to update the Asset details form without filling in the mandatory fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the tower asset site, when providing any blank fields in the mandatory options.",Error is shown if mandatory fields in the Asset Details form are left empty on update.,CSI-84705,Low,CSI-85826,
+TC_76,Verify that there is no other inventory type fields is present in the asset details form,Verify that there is no other inventory type fields is present in the asset details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the tower asset site, when providing any blank fields in the mandatory options.",No other inventory type fields appear in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_77,Verify that the all fields in the Asset Details form are aligned in correct apporved order,Verify that the all fields in the Asset Details form are aligned in correct apporved order,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower asset site and check all the fields are in approved order.",All fields in the Asset Details form are aligned in the approved order.,CSI-84705,Low,CSI-85826,
+TC_78,Verify section formatting and layout follow of Asset details standard SIP Data Migration form UI patterns in the Tower Asset and asset detail form,Verify section formatting and layout follow standard SIP Data Migration form UI patterns in the Tower Asset and asset detail form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower asset site and check all the layouts, UI patterns are in standard format.",The section formatting and layout follow the standard SIP Data Migration UI patterns.,CSI-84705,Low,CSI-85826,
+TC_79,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and asset details form,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and asset details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset site and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.",The existing behaviors for other inventory types remain unchanged after changes to Tower Asset forms.,CSI-84705,Low,CSI-85826,
+TC_80,Verify that there is no regression across other Manage Data forms and Inventory Type forms after recent changes.,Verify that there is no regression across other Manage Data forms and Inventory Type forms after recent changes.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset site, make changes, and save.
+4. Check that recent changes do not affect the manage data forms or inventory type forms.",No regression issues occur in other Manage Data and Inventory Type forms after recent changes.,CSI-84705,Low,CSI-85826,
+TC_81,"Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Contract Details section is visible","Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Contract Details section is visible",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset contract is displays in the respective page",Tower Asset record’s Asset Details section is visible on the form view.,CSI-84705,Low,CSI-85826,
+TC_82,Verify that the Contract Details section is loading without UI issues or missing fields,Verify that the Contract Details section is loading without UI issues or missing fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset contract is displays in the Tower Asset Load section without any UI issues",Asset Details section loads without UI issues or missing fields.,CSI-84705,Low,CSI-85826,
+TC_83,Verify that the Contract Details section displays the specific Tower Asset asset fiedls for the particular selected record,Verify that the Contract Details section displays the specific Tower Asset asset fiedls for the particular selected record,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset contract records are shown in the Tower Asset Load section  ",Asset Details section shows Tower Asset asset fields for the selected record.,CSI-84705,Low,CSI-85826,
+TC_84,"Verify that field labels, data types, and mandatory indicators in the Contract Details form match the Tower Asset data model and the agreed data migration template attributes.","Verify that field labels, data types, and mandatory indicators in the Contract Details form match the Tower Asset data model and the agreed data migration template attributes.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the field label, data type, mandatory details are shown in the Tower Asset contract.","The field labels, data types, and mandatory markers match the Tower Asset data model and template.",CSI-84705,Low,CSI-85826,
+TC_85,Verify that an error is thrown when invalid data types are entered in the Contract Details form,Verify that an error is thrown when invalid data types are entered in the Contract Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Click on Tower Asset contract filter option and provide any invalid data to check any error is shown.",Error is shown for invalid data entered in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_86,Verify that an error is thrown when attempting to update the Contract Details form without filling in the mandatory fields,Verify that an error is thrown when attempting to update the Contract Details form without filling in the mandatory fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Tower Asset contract, when providing any blank fields in the mandatory options.",Error is shown if mandatory fields in the Asset Details form are left empty on update.,CSI-84705,Low,CSI-85826,
+TC_87,Verify that there is no other inventory type fields is present in the Contract Details form,Verify that there is no other inventory type fields is present in the Contract Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Tower Asset contract, when providing any blank fields in the mandatory options.",No other inventory type fields appear in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_88,Verify that the all fields in the Contract Details form are aligned in correct apporved order,Verify that the all fields in the Contract Details form are aligned in correct apporved order,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset contract and check all the fields are in approved order.",All fields in the Asset Details form are aligned in the approved order.,CSI-84705,Low,CSI-85826,
+TC_89,"Verify that grouping, spacing, and UI alignment of contract details should follow SIP application standards and other inventory form sections","Verify that grouping, spacing, and UI alignment should follow SIP application standards and other inventory form sections",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset contract and check all the layouts, UI patterns are in standard format.",The section formatting and layout follow the standard SIP Data Migration UI patterns.,CSI-84705,Low,CSI-85826,
+TC_90,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and Contract Details form,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and Contract Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset contract and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.",The existing behaviors for other inventory types remain unchanged after changes to Tower Asset forms.,CSI-84705,Low,CSI-85826,
+TC_91,"Verify there is no breakage or change to views for CPE, Access, Cross Connect, ReFX, or other asset types after updating the Contract Details form","Verify there is no breakage or change to views for CPE, Access, Cross Connect, ReFX, or other asset types after updating the Contract Details form",The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset contract, make changes, and save.
+4. Check that recent changes do not affect the manage data forms or inventory type forms.",No regression issues occur in other Manage Data and Inventory Type forms after recent changes.,CSI-84705,Low,CSI-85826,
+TC_92,Verify the following text are modified in the tower inventory home page.,Verify the following text are modified in the tower inventory home page.,The SIP Portal should be accessible to the specific admin user,"Login to SIP portal
+Check the Tower inventory Home page
+The following context should be retained in the SIP home page.","The following text is shown in the SIP home page “Welcome to the Tower Inventory Portal.
+Your digital platform for accurate and up to date fixed inventory.
+The inventory for Tower Site, containing Contracts, Costs and Site Agreements information.”",CSI-84705,Low,CSI-85826,
+TC_93,Verify the following text/content are mismatched in the tower inventory home page.,Verify the following text/content are mismatched in the tower inventory home page.,The SIP Portal should not be admin user,"Login to SIP portal
+Check the Tower inventory Home page
+The following context should be retained in the SIP home page.","The following text/context is not correctly shown in the SIP home page “Welcome to the Tower Inventory Portal.
+Your digital platform for accurate and up to date fixed inventory.
+The inventory for Tower Site, containing Contracts, Costs and Site Agreements information.”",CSI-84705,Low,CSI-85826,
+TC_94,"Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Cost Details section is visible","Verify that when a Tower Asset record is opened in the Tower Asset Load form view, the Cost Details section is visible",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset Cost is displays in the respective page",Tower Asset record’s Asset Details section is visible on the form view.,CSI-84705,Low,CSI-85826,
+TC_95,Verify that the Cost Details section is loading without UI issues or missing fields,Verify that the Cost Details section is loading without UI issues or missing fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset Cost is displays in the Tower Asset Load section without any UI issues",Asset Details section loads without UI issues or missing fields.,CSI-84705,Low,CSI-85826,
+TC_96,Verify that the Cost Details section displays the specific Tower Asset Cost fields for the particular selected record,Verify that the Cost Details section displays the specific Tower Asset Cost fiedls for the particular selected record,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Tower Asset Cost records are shown in the Tower Asset Load section  ",Asset Details section shows Tower Asset Cost fields for the selected record.,CSI-84705,Low,CSI-85826,
+TC_97,"Verify that field labels, data types, and mandatory indicators in the Cost Details form match the Tower Asset data model and the agreed data migration template attributes.","Verify that field labels, data types, and mandatory indicators in the Cost Details form match the Tower Asset data model and the agreed data migration template attributes.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the field label, data type, mandatory details are shown in the Tower Asset Cost.","The field labels, data types, and mandatory markers match the Tower Asset data model and template.",CSI-84705,Low,CSI-85826,
+TC_98,Verify that an error is thrown when invalid data types are entered in the Cost Details form,Verify that an error is thrown when invalid data types are entered in the Cost Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Click on Tower Asset Cost filter option and provide any invalid data to check any error is shown.",Error is shown for invalid data entered in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_99,Verify that an error is thrown when attempting to update the Cost Details form without filling in the mandatory fields,Verify that an error is thrown when attempting to update the Cost Details form without filling in the mandatory fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Tower Asset Cost, when providing any blank fields in the mandatory options.",Error is shown if mandatory fields in the Asset Details form are left empty on update.,CSI-84705,Low,CSI-85826,
+TC_100,Verify that there is no other inventory type fields is present in the Cost Details form,Verify that there is no other inventory type fields is present in the Cost Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Tower Asset Cost, when providing any blank fields in the mandatory options.",No other inventory type fields appear in the Asset Details form.,CSI-84705,Low,CSI-85826,
+TC_101,Verify that the all fields in the Cost Details form are aligned in correct apporved order,Verify that the all fields in the Cost Details form are aligned in correct apporved order,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset Cost and check all the fields are in approved order.",All fields in the Asset Details form are aligned in the approved order.,CSI-84705,Low,CSI-85826,
+TC_102,"Verify that grouping, spacing, and UI alignment of Cost details should follow SIP application standards and other inventory form sections","Verify that grouping, spacing, and UI alignment should follow SIP application standards and other inventory form sections",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset Cost and check all the layouts, UI patterns are in standard format.",The section formatting and layout follow the standard SIP Data Migration UI patterns.,CSI-84705,Low,CSI-85826,
+TC_103,Verify there is no mixing of cost details fields with the contract/ asset fields,Verify there is no mixing of cost details fields with the contract/ asset fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset Cost and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.",The existing behaviors for other inventory types remain unchanged after changes to Tower Asset forms.,CSI-84705,Low,CSI-85826,
+TC_104,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and Cost Details form,Verify existing form behaviors for other inventory types remain unchanged after doing changes in Tower Asset form and Cost Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset contract and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.
+4. Check that recent changes do not affect the manage data forms or inventory type forms.",No regression issues occur in other Manage Data and Inventory Type forms after recent changes.,CSI-84705,Low,CSI-85826,
+TC_105,"Verify there is no breakage or change to views for CPE, Access, Cross Connect, ReFX, or other asset types after updating the Cost Details form","Verify there is no breakage or change to views for CPE, Access, Cross Connect, ReFX, or other asset types after updating the Cost Details form",The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset contract, make changes, and save.
+4. Check that recent changes do not affect the manage data forms or inventory type forms.",No regression issues occur in other Manage Data and Inventory Type forms after recent changes.,CSI-84705,Low,CSI-85826,
+TC_106,"Verify that when a Tower Asset record is opened, the  Load Details section is  visible in the form","Verify that when a Tower Asset record is opened, the  Load Details section is  visible in the form",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Load details is visible in all the 3 sub menus site/cost/contract in the respective page",Load Details section is visible when a Tower Asset record is opened in the form.,CSI-84705,Low,CSI-85826,
+TC_107,Verify that the Load Details section is loading without UI issues or missing fields,Verify that the Load Details section is loading without UI issues or missing fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the Load details displayed in the sub menus of Tower asset load section without any UI issues",Load Details section loads without UI issues or missing fields.,CSI-84705,Low,CSI-85826,
+TC_108,Verify that the Load Details section display fields specific to Tower Asset Load execution,Verify that the Load Details section display fields specific to Tower Asset Load execution,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the following status are shown in the Load details",Load Details section shows fields specific to Tower Asset Load execution.,CSI-84705,Low,CSI-85826,
+TC_109,"Verify that field labels, data types, and mandatory indicators in the Load Details match the Load data model configuration standards ","Verify that field labels, data types, and mandatory indicators in the Load Details match the Load data model configuration standards ",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Check the field label, data type, mandatory details are shown in the Load details section.","The field labels, data types, and mandatory markers match the Load data model standards.",CSI-84705,Low,CSI-85826,
+TC_110,Verify that all the load details fields is aligned with the approved SIP load data model,Verify that all the load details fields is aligned with the approved SIP load data model,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Click on any of the Tower Asset Cost/contract option and check all the load details fields are aligned properly.",all Load Details fields are aligned with the approved SIP load data model.,CSI-84705,Low,CSI-85826,
+TC_111,Verify that an error is thrown when invalid data types are entered in the Load Details form,Verify that an error is thrown when invalid data types are entered in the Load Details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Load details section, when providing any blank fields in the mandatory options.",An error appears when invalid data types are entered in the Load Details form.,CSI-84705,Low,CSI-85826,
+TC_112,Verify that an error is thrown when attempting to update the Load Details form without filling in the mandatory fields,Verify that an error is thrown when attempting to update the Load Details form without filling in the mandatory fields,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Check error message is shown in the Load details, when providing any blank fields in the mandatory options.",An error appears when mandatory fields are left empty during form update.,CSI-84705,Low,CSI-85826,
+TC_113,Verify that all the business approved load related attributes is shown in the load details form,Verify that all the business approved load related attributes is shown in the load details form,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset Cost/Cost/Contract and check all the fields in Load details are in approved order.",All business-approved load-related attributes are displayed in the Load Details form.,CSI-84705,Low,CSI-85826,
+TC_114,"Verify that grouping, spacing, ordering and UI alignment of load details should follow SIP application standards and other inventory form sections","Verify that grouping, spacing, ordering and UI alignment of load details should follow SIP application standards and other inventory form sections",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3. Open any existing Tower Asset Cost/Cost/Contract and check all the layouts, UI patterns in Load details sections are in standard format.","The grouping, spacing, ordering, and alignment follow SIP application and inventory form UI standards.",CSI-84705,Low,CSI-85826,
+TC_115,Verify that adding Tower Asset Load Details does not cause regression or impact functionality of other inventory types,Verify that adding Tower Asset Load Details does not cause regression or impact functionality of other inventory types,The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower Asset Cost/Cost/Contract and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.",Adding Tower Asset Load Details does not cause regression or impact other inventory types.,CSI-84705,Low,CSI-85826,
+TC_116,"Verify that existing load views and forms (CPE, Access, Cross Connect, ReFX, etc.) continue functioning without regression after updating the Load details form","Verify that existing load views and forms (CPE, Access, Cross Connect, ReFX, etc.) continue functioning without regression after updating the Load details form",The Servicenow and SIP Portal should be accessible to the admin user,"1.Log in to the SIP portal using valid credentials. 
+2.Navigate to Data Steward ? Inventory Migration ? Manage Data, then click on ""Tower Asset Load.""
+3. Open any existing Tower contract/cost/site and verify that form behaviors for other inventory types remain unchanged after updates to the Tower Asset form and asset details form.
+4. Check that recent changes do not affect the manage data forms or inventory type forms.",No regression issues occur in other Manage Data and Inventory Type forms after recent changes.,CSI-84705,Low,CSI-85826,
+TC_117,Verify the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Ensure the Tower Asset Load option is visible and Click the menu option and verify that the corresponding page loads successfully.",Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,CSI-84705,Low,CSI-85826,
+TC_118,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the dropdown expands and displays related submenu options.",Tower Asset Load dropdown expands and displays related options in the Manage Data section.,CSI-84705,Low,CSI-85826,
+TC_119,Verify the Tower Asset Site option under Tower Asset Load dropdown is accessible.,Verify the Tower Asset Site option under Tower Asset Load dropdown is accessible.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the Tower Asset Site submenu is displayed and accessible.",Tower Asset Site option under Tower Asset Load dropdown is accessible.,CSI-84705,Low,CSI-85826,
+TC_120,Verify the list view displays site records with required details in the Tower Asset Site Load section.,Verify the list view displays site records with required details in the Tower Asset Site Load section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.Verify that the list of site records is visible and populated.
+6.Ensure each record displays the required details.",The list view displays site records with required details in the Tower Asset Site Load section.,CSI-84705,Low,CSI-85826,
+TC_121,Verify “No Records” Message When No Data Exists,"Confirm that when no Tower Asset Site Load records exist, the system displays “No records to display” instead of a blank screen.",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.If no records exist, verify that the message “No records to display” is shown.",“No Records” Message is displayed When No Data Exists,CSI-84705,Low,CSI-85826,
+TC_122,Verify Export Functionality for Tower Asset Site Load Records,Ensure that the Export feature downloads all Tower Asset Site Load records in Excel format (.xls/.xlsx) and matches the displayed data.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.Click the Export button.
+6.Verify that the downloaded file contains all records as displayed on the page.",Check the Export feature downloads all Tower Asset Site Load records in Excel format (.xls/.xlsx) and matches the displayed data.,CSI-84705,Low,CSI-85826,
+TC_123,Verify Filter Functionality for Tower Asset Site Load Records,Ensure that the Filter feature applies conditions correctly and displays only matching records.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.Click the Filter option.
+6.Select a field, choose a condition, and enter a valid value.
+7.Apply the filter and verify that only matching records are displayed.",,CSI-84705,Low,CSI-85826,
+TC_124,Verify “No records to display.” error message should display when providing blank/invalid inputs in filter functions.,"Confirm that when no records match the applied filter, the system displays “No records to display.”",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.Click the Filter option.
+6.Provide invalid/blank field, choose a condition, and enter a invalid value.
+7.Apply the filter and verify that error message is shown.",“No records to display.” error message should display when providing blank/invalid inputs.,CSI-84705,Low,CSI-85826,
+TC_125,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower asset site.
+5.Check the UI performance and List view is not impacting the existing data functionalities.",UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,CSI-84705,Low,CSI-85826,
+TC_126,Verify the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Ensure the Tower Asset Load option is visible and Click the menu option and verify that the corresponding page loads successfully.",Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,CSI-84705,Low,CSI-85826,
+TC_127,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the dropdown expands and displays related submenu options.",Tower Asset Load dropdown expands and displays related options in the Manage Data section.,CSI-84705,Low,CSI-85826,
+TC_128,Verify the Tower Asset Cost option under Tower Asset Load dropdown is accessible.,Verify the Tower Asset Cost option under Tower Asset Load dropdown is accessible.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the Tower Asset Cost submenu is displayed and accessible.",Tower Asset Cost option under Tower Asset Load dropdown is accessible.,CSI-84705,Low,CSI-85826,
+TC_129,Verify the list view displays site records with required details in the Tower Asset Cost Load section.,Verify the list view displays site records with required details in the Tower Asset Cost Load section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.Verify that the list of site records is visible and populated.
+6.Ensure each record displays the required details.",The list view displays site records with required details in the Tower Asset Cost Load section.,CSI-84705,Low,CSI-85826,
+TC_130,Verify “No Records” Message When No Data Exists,"Confirm that when no Tower Asset Cost Load records exist, the system displays “No records to display” instead of a blank screen.",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.If no records exist, verify that the message “No records to display” is shown.",“No Records” Message is displayed When No Data Exists,CSI-84705,Low,CSI-85826,
+TC_131,Verify Export Functionality for Tower Asset Cost Load Records,Ensure that the Export feature downloads all Tower Asset Cost Load records in Excel format (.xls/.xlsx) and matches the displayed data.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.Click the Export button.
+6.Verify that the downloaded file contains all records as displayed on the page.",Check the Export feature downloads all Tower Asset Cost Load records in Excel format (.xls/.xlsx) and matches the displayed data.,CSI-84705,Low,CSI-85826,
+TC_132,Verify Filter Functionality for Tower Asset Cost Load Records,Ensure that the Filter feature applies conditions correctly and displays only matching records.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.Click the Filter option.
+6.Select a field, choose a condition, and enter a valid value.
+7.Apply the filter and verify that only matching records are displayed.",,CSI-84705,Low,CSI-85826,
+TC_133,Verify “No records to display.” error message should display when providing blank/invalid inputs in filter functions.,"Confirm that when no records match the applied filter, the system displays “No records to display.”",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.Click the Filter option.
+6.Provide invalid/blank field, choose a condition, and enter a invalid value.
+7.Apply the filter and verify that error message is shown.",“No records to display.” error message should display when providing blank/invalid inputs.,CSI-84705,Low,CSI-85826,
+TC_134,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Cost.
+5.Check the UI performance and List view is not impacting the existing data functionalities.",UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,CSI-84705,Low,CSI-85826,
+TC_135,Verify the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data--> Click on the ""Tower Asset Load""
+3.Ensure the Tower Asset Load option is visible and Click the menu option and verify that the corresponding page loads successfully.",Confirm that the Tower Asset Load menu is accessible from the Manage Data section within Inventory Migration.,CSI-84705,Low,CSI-85826,
+TC_136,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,Verify the Tower Asset Load dropdown expands and displays related options in the Manage Data section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the dropdown expands and displays related submenu options.",Tower Asset Load dropdown expands and displays related options in the Manage Data section.,CSI-84705,Low,CSI-85826,
+TC_137,Verify the Tower Asset Contract option under Tower Asset Load dropdown is accessible.,Verify the Tower Asset Contract option under Tower Asset Load dropdown is accessible.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Manage Data.
+3.Click the Tower Asset Load menu option and Verify that the Tower Asset Contract submenu is displayed and accessible.",Tower Asset Contract option under Tower Asset Load dropdown is accessible.,CSI-84705,Low,CSI-85826,
+TC_138,Verify the list view displays site records with required details in the Tower Asset Contract Load section.,Verify the list view displays site records with required details in the Tower Asset Contract Load section.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.Verify that the list of site records is visible and populated.
+6.Ensure each record displays the required details.",The list view displays site records with required details in the Tower Asset Contract Load section.,CSI-84705,Low,CSI-85826,
+TC_139,Verify “No Records” Message When No Data Exists,"Confirm that when no Tower Asset Contract Load records exist, the system displays “No records to display” instead of a blank screen.",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.If no records exist, verify that the message “No records to display” is shown.",“No Records” Message is displayed When No Data Exists,CSI-84705,Low,CSI-85826,
+TC_140,Verify Export Functionality for Tower Asset Contract Load Records,Ensure that the Export feature downloads all Tower Asset Contract Load records in Excel format (.xls/.xlsx) and matches the displayed data.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.Click the Export button.
+6.Verify that the downloaded file contains all records as displayed on the page.",Check the Export feature downloads all Tower Asset Contract Load records in Excel format (.xls/.xlsx) and matches the displayed data.,CSI-84705,Low,CSI-85826,
+TC_141,Verify Filter Functionality for Tower Asset Contract Load Records,Ensure that the Filter feature applies conditions correctly and displays only matching records.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.Click the Filter option.
+6.Select a field, choose a condition, and enter a valid value.
+7.Apply the filter and verify that only matching records are displayed.",,CSI-84705,Low,CSI-85826,
+TC_142,Verify “No records to display.” error message should display when providing blank/invalid inputs in filter functions.,"Confirm that when no records match the applied filter, the system displays “No records to display.”",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.Click the Filter option.
+6.Provide invalid/blank field, choose a condition, and enter a invalid value.
+7.Apply the filter and verify that error message is shown.",“No records to display.” error message should display when providing blank/invalid inputs.,CSI-84705,Low,CSI-85826,
+TC_143,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,Verify UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration.
+3.In the Tracker tab, go to Manage Data.
+4.Click the Tower Asset Load menu option and select Tower Asset Contract.
+5.Check the UI performance and List view is not impacting the existing data functionalities.",UI Consistency and Load Performance of Tower Asset Cost List View without Impacting Existing Manage Data Functionality,CSI-84705,Low,CSI-85826,
+TC_144,Verify that user can be able to Navigate Your Inventory Upload page,Verify that user can be able to Navigate Your Inventory Upload and List View should load Successful.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Check Your Inventory Upload page is navigated.",User should be navigate successfully to Your Inventory Upload page,CSI-84705,Low,CSI-85826,
+TC_145,Verify that Tower Asset records are included and correctly displayed in the 'Your Inventory Uploads',Verify that Tower Asset records are included and correctly displayed in the 'Your Inventory Uploads',The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Apply a filter for Inventory Type = Tower Asset.
+4.Confirm Tower Asset records are displayed.",Tower Asset records are included and correctly displayed in the 'Your Inventory Uploads',CSI-84705,Low,CSI-85826,
+TC_146,"Verify that Tower Asset records appear correctly in the ‘Your Inventory Uploads’ list alongside other inventory types such as CPE, Access, and Cross Connect.","Verify that Tower Asset records appear correctly in the ‘Your Inventory Uploads’ list alongside other inventory types such as CPE, Access, and Cross Connect.",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Apply a filter for Inventory Type ""CPE, Access, and Cross Connect"".
+4.Ensure other inventory types are visible.","Verify that Tower Asset records appear correctly in the ‘Your Inventory Uploads’ list alongside other inventory types such as CPE, Access, and Cross Connect.",CSI-84705,Low,CSI-85826,
+TC_147,Verify all the Inventory type are shown once removing the filter option in Your Inventory Upload page,Verify all the Inventory type are shown once removing the filter option in Your Inventory Upload page,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Remove the filter for Inventory Type.
+4.Ensure all inventory types are visible.",All the Inventory type are shown once removing the filter option in Your Inventory Upload page,CSI-84705,Low,CSI-85826,
+TC_148,Verify that the Source Sheet Name column is visible with correct label and values.,Verify that the Source Sheet Name column is visible with correct label and values.,The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open the Your Inventory Uploads list view.
+4.Check if the Source Sheet Name column is present.
+5.Verify that the column label matches the expected field label.
+6.Confirm that the column values reflect the correct sheet type uploaded (e.g., Tower Asset Site, Tower Asset Contract, Tower Asset Cost)","The Source Sheet Name column is visible.
+The label matches the expected field name.
+Values correctly represent the sheet type used during upload.",CSI-84705,Low,CSI-85826,
+TC_149,"Verify the sorting, filtering, and extraction functionalities for all columns.","Verify the sorting, filtering, and extraction functionalities for all columns.",The SIP Portal should be accessible to the specific admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open the Your Inventory Uploads list view.
+4.Sort the Inventory Type column in ascending and descending order.
+5.Apply a filter for Inventory Type = Tower Asset and verify results.
+6.Sort and filter the Source Sheet Name column.
+7.Use the extraction/export functionality to download the filtered data.","Sorting works correctly for all columns.
+Filtering returns accurate results based on applied conditions.
+Extraction/export downloads the correct filtered dataset without errors.",CSI-84705,Low,CSI-85826,
+TC_150,Verify the Migration Tower asset record view page is Opens Successfully,Verify the Migration Tower asset record view page is Opens Successfully,The Servicenow and SIP Portal should be accessible to the admin user,"Login SNOW with valid credentials
+Click on All --> ""u_sip_processing_details.LIST""
+Click on View: Migration Tower Asset
+Open the view and verify it loads successfully in record view",Migration Tower asset record view page is Opens Successfully,CSI-84705,Low,CSI-85826,
+TC_151,Verify the required fields are displayed on the Tower Asset form layout.,Verify the required fields are displayed on the Tower Asset form layout.,The Servicenow and SIP Portal should be accessible to the admin user,"Login SNOW with valid credentials
+Click on All --> ""u_sip_processing_details.LIST""
+Click on View: Migration Tower Asset
+Verify that the following fields are present:
+Load ID,Load Status,Inventory Type,Category, Source Sheet Name",All specified fields are visible in the form layout.,CSI-84705,Low,CSI-85826,
+TC_152,Verify the related list displays Tower Asset Site Load when Source Sheet Name = Tower Asset Site.,Verify the related list displays Tower Asset Site Load when Source Sheet Name = Tower Asset Site.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open a Tower Asset record
+4. Set Source Sheet Name = Tower Asset Site (or open a record with this value)
+5. Scroll to the related list section
+6. Verify that only Tower Asset Site Load appears",The related list displays Tower Asset Site Load only.,CSI-84705,Low,CSI-85826,
+TC_153,Verify the related list displays Tower Asset Contract Load when Source Sheet Name = Tower Asset Contract.,Verify the related list displays Tower Asset Contract Load when Source Sheet Name = Tower Asset Contract.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open a Tower Asset record
+4. Set Source Sheet Name = Tower Asset Contract (or open a record with this value)
+5. Scroll to the related list section
+6. Verify that only Tower Asset Contract Load appears",The related list displays Tower Asset Contract Load only.,CSI-84705,Low,CSI-85826,
+TC_154,Verify the related list displays Tower Asset Cost Load when Source Sheet Name = Tower Asset Cost.,Verify the related list displays Tower Asset Cost Load when Source Sheet Name = Tower Asset Cost.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open a Tower Asset record
+4. Set Source Sheet Name = Tower Asset Cost (or open a record with this value)
+5. Scroll to the related list section
+6. Verify that only Tower Asset Cost Load appears",The related list displays Tower Asset Cost Load only.,CSI-84705,Low,CSI-85826,
+TC_155,Verify clicking any record in the related list navigates to its correct record view.,Verify clicking any record in the related list navigates to its correct record view.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Track Progress
+3.Open a Tower Asset record.
+4.Scroll to the related list section.
+5.Click any related list entry.
+6.Verify that the corresponding record view opens successfully.",Clicking a related list record opens the correct record view without errors.,CSI-84705,Low,CSI-85826,
+TC_156,"Verify that the templates for the data migration for Site, Cost, and Contract are finalised and approved","Verify that the templates for the data migration for Site, Cost, and Contract are finalised and approved",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload Data
+3.Click on the Tower Asset template.xlsx
+4.Check the approved template are matching with the downloaded template.","Templates for the data migration for Site, Cost, and Contract are finalised and approved",CSI-84705,Low,CSI-85826,
+TC_157,"Verify that defined user groups can upload different templates into SIP successfully, ensuring migration starts with validated input data.","Verify that defined user groups can upload different templates into SIP successfully, ensuring migration starts with validated input data.",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload Data
+3.Provide valid input in the template and upload the template.
+4.Check the template are uploaded successfully in the SIP","The defined user groups can upload different templates into SIP successfully, ensuring migration starts with validated input data.",CSI-84705,Low,CSI-85826,
+TC_158,Verify that the Tower Asset template is finalized with the specific and approved column names,Verify that the Tower Asset template is finalized with the specific and approved column names,The SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload Data
+3.Click on the Tower Asset template.xlsx
+4.Check the approved template are matching with the specific and approved column names.",The Tower Asset template should be finalized with the specific and approved column names,CSI-84705,Low,CSI-85826,
+TC_159,Verify user can upload a new inventory record for Tower asset  ,Verify user can upload a new inventory record for Tower asset  ,The SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload data
+3.Select inventory Type - Tower Asset
+4.Click Attach button and Upload the template 
+5. Click on Update now button",User should be able upload a new inventory record for Tower asset  ,CSI-84705,Low,CSI-85826,
+TC_160,Check the newly uploaded record is shown in the manage data for tower asset load,Check the newly uploaded record is shown in the manage data for tower asset load,The SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload data
+3.Select inventory Type - Tower Asset
+4.Click Attach button and Upload the template 
+5. Click on Update now button
+6.Click on Manage data and check the template is reflected in the respective Tower asset load",Newly uploaded record is shown in the manage data for tower asset load,CSI-84705,Low,CSI-85826,
+TC_161,Verify that an error message is displayed when a user added/uploaded invalid data while creating a record.,Verify that an error message is displayed when a user added/uploaded invalid data while creating a record.,The SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Upload data
+3.Select inventory Type - Tower Asset
+4.Click Attach button and Upload the template with invalid data
+5. Click on Update now button (should throw error message)",Verify that an error message is displayed when a user added/uploaded invalid data while creating a record.,CSI-84705,Low,CSI-85826,
+TC_162,Verify the user can create a new inventory record for Tower asset  ,Verify the user can create a new record for Tower asset  ,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record
+3.Select inventory Type - Tower Asset
+4. Provide all the details in Cost, Contract and Site
+5. Click on Submit button",User created a new record for Tower asset  ,CSI-84705,Low,CSI-85826,
+TC_163,Check the newly created record is shown in the manage data for tower asset load,"Verify that the system automatically creates three Load Data records in the ‘Tower Asset Migration Import’ (or Load Data) table which consists cost, contract and asset",The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record
+3.Create a new record for tower asset.
+4.Click on Manage data - Select Tower asset load
+5. Check the newly created record for Site, cost, contract is shown respectively.",,CSI-84705,Low,CSI-85826,
+TC_164,Verify that an error message is displayed when a user enters invalid data while creating a record.,Verify that an error message is displayed when a user enters invalid data while creating a record.,The Servicenow and SIP Portal should be accessible to the admin user,"1.Login SIP portal with valid credentials        
+2.Click on Data steward --> Inventory Migration --> Create Inventory Record
+3.Create a new record with invalid data  
+4.Check any error message is shown in the respective page",Error message is displayed when a user enters invalid data while creating a record.,CSI-84705,Low,CSI-85826,
+TC_165,Verify the u_sip_execution_details table exists and can be accessed in the system,Verify the u_sip_execution_details table exists and can be accessed in the system,The Servicenow portal should be accessible to the admin user,"1.Login SNOW with valid credential
+2.Navigate to System Definition ? Tables.
+3.Search for u_sip_execution_details.
+4.Open the table record.",,CSI-84705,Low,CSI-85826,
+TC_166,"Verify that the source sheet name choice field type contains asset, cost and contract","Verify that the source sheet name choice field type contains asset, cost and contract",The Servicenow portal should be accessible to the admin user,"1.Login SNOW with valid credential
+2.Navigate to System Definition ? Tables.
+3.Search for u_sip_execution_details.
+4.Open the table record.
+5.Check the Source Sheet Name contains asset, cost & contract type.",,CSI-84705,Low,CSI-85826,
+TC_167,"Verify that the source sheet name choice field type contains asset, cost and contract which are read only fields and cannot be edited","Verify that the source sheet name choice field type contains asset, cost and contract which are read only fields and cannot be edited",The Servicenow portal should be accessible to the admin user,"1.Login SNOW with valid credential
+2.Navigate to System Definition ? Tables.
+3.Search for u_sip_execution_details.
+4.Open the table record.
+5.Check the Source Sheet Name is read only/string - asset, cost & contract type.",,CSI-84705,Low,CSI-85826,
